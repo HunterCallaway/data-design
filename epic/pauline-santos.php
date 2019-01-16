@@ -6,7 +6,7 @@
 	</head>
 	<body>
 		<h1>User Persona</h1>
-		<img src="pauline-santos.jpg" alt="Picture of user Pauline Santos">
+		<img src="pauline-santos.jpg" alt="Picture of user Pauline Santos" height="350" width="450">
 			<ul>
 				<li>Name: Pauline Santos</li>
 				<li>Age: 33</li>
