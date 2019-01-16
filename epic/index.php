@@ -7,7 +7,8 @@
 	<body>
 		<h1>Links</h1>
 			<ul>
-
+				<li><a href="pauline-santos.php">Persona</a></li>
+				<li><a href="use-case.php">Use Case</a></li>
 			</ul>
 	</body>
 </html>
