@@ -32,5 +32,7 @@
 				<ul>
 					<li>Many members can belong to many groups. (m to n)</li>
 				</ul>
+			<h2>Entity Relationship Diagram</h2>
+				<img src="data-design-erd.png" alt="Entity Relationship Diagram">
 	</body>
 </html>
