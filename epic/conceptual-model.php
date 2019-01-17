@@ -5,6 +5,7 @@
 		<title>Conceptual Model</title>
 	</head>
 	<body>
+		<a href="index.php">Main Page</a>
 		<h1>Conceptual Model</h1>
 			<h2>Entities and Attributes</h2>
 				<h3>group</h3>
