@@ -34,8 +34,8 @@
 					</ul>
 			<h2>Relationships</h2>
 				<ul>
-					<li>One group can host many events. (1 to n)</li>
 					<li>One group can have many members. (1 to n)</li>
+					<li>One group can host many events. (1 to n)</li>
 					<li>One member can belong to many groups. (1 to n)</li>
 					<li>One member can attend many events. (1 to n)</li>
 				</ul>
