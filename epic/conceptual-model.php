@@ -26,6 +26,7 @@
 					<ul>
 						<li>eventId (primary key)</li>
 						<li>eventGroupId (foreign key)</li>
+						<li>eventMemberId (foreign key)</li>
 						<li>eventDate</li>
 						<li>eventDetailsMessage</Li>
 						<li>eventTime</li>
