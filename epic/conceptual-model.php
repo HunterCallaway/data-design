@@ -13,30 +13,24 @@
 						<li>groupId (primary key)</li>
 						<li>groupHost</li>
 						<li>groupLocation</li>
+						<li>groupName</li>
 					</ul>
 				<h3>member</h3>
 					<ul>
 						<li>memberId (primary key)</li>
-						<li>memberGroupId (foreign key)</li>
 						<li>memberCreationDate</li>
 						<li>memberLocation</li>
 						<li>memberPassword</li>
+						<li>memberUserName</li>
 					</ul>
-				<h3>event</h3>
+				<h3>groupMember</h3>
 					<ul>
-						<li>eventId (primary key)</li>
-						<li>eventGroupId (foreign key)</li>
-						<li>eventMemberId (foreign key)</li>
-						<li>eventDate</li>
-						<li>eventDetailsMessage</Li>
-						<li>eventTime</li>
-						<li>eventVenue</li>
+						<li>groupMemberGroupId (foreign key)</li>
+						<li>groupMemberMemberId (foreign key</li>
 					</ul>
 			<h2>Relationships</h2>
 				<ul>
 					<li>Many members can belong to many groups. (m to n)</li>
-					<li>One group can host many events. (1 to n)</li>
-					<li>One member can attend many events. (1 to n)</li>
 				</ul>
 	</body>
 </html>

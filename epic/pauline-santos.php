@@ -16,7 +16,7 @@
 				<li>Occupation: Attorney</li>
 				<li>Relationship Status: Single</li>
 				<li>Likes: spending time with her children, meeting new people, and finding fun, local activities in which to participate</li>
-				<li>Technology: Desktop - 21.5-inch iMac; cell phone - Samsung Galaxy S8</li>
+				<li>Technology: Desktop - 21.5-inch iMac--MacOS Mojave; cell phone - Samsung Galaxy S8--Android 7.0 (Nougat)</li>
 				<li>Technological-comfort level: daily professional use (primarily Microsoft Office suite and internet) and basic personal web browsing and mobile application usage</li>
 				<li>Goals: Pauline would like to connect with local mothers for regular outings.</li>
 				<li>Frustrations:
