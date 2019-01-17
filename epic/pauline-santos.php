@@ -5,6 +5,7 @@
 		<title>User Persona: Pauline Santos</title>
 	</head>
 	<body>
+		<a href="index.php">Main Page</a>
 		<h1>User Persona</h1>
 		<img src="pauline-santos.jpg" alt="Picture of user Pauline Santos" height="350" width="450">
 			<ul>

@@ -5,6 +5,7 @@
 		<title>User story, use case, and interaction flow</title>
 	</head>
 	<body>
+		<a href="index.php">Main Page</a>
 		<h1>User Story</h1>
 			<p>Pauline would like to join a group of local mothers who like to plan kid-friendly outings.</p>
 		<h1>Use Case</h1>
