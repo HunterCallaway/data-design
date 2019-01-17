@@ -6,7 +6,7 @@
 	</head>
 	<body>
 		<a href="index.php">Main Page</a>
-		<h1>Conceptual Model</h1>
+		<h1>Conceptual Model - Meetup.com</h1>
 			<h2>Entities and Attributes</h2>
 				<h3>group</h3>
 					<ul>
