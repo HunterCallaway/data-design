@@ -25,3 +25,17 @@ The following code will create the group entity and its attributes.
  	 PRIMARY KEY (groupId)
  );
 
+/*
+The following code will create the member entity and its attributes.
+ */
+CREATE TABLE member (
+	memberID BINARY(16) NOT NULL,
+	memberCreationDate DATETIME(6) NOT NULL ,
+	memberLocation CHAR(255),
+	memberPassword CHAR(100),
+	memberUserName CHAR(255),
+	/*
+	Setting the primary key.
+	 */
+	 PRIMARY KEY (memberID)
+);
