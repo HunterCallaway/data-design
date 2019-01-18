@@ -39,3 +39,17 @@ CREATE TABLE member (
 	 */
 	 PRIMARY KEY (memberID)
 );
+
+CREATE TABLE groupMember (
+	groupMemberGroupId BINARY(16) NOT NULL,
+	groupMemberMemberId BINARY(16) NOT NULL,
+	/*
+	Creating the foreign keys.
+	 */
+	 FOREIGN KEY (groupMemberGroupId) REFERENCES `group`(groupId),
+	 FOREIGN KEY (groupMemberMemberId) REFERENCES member(memberID),
+	 /*
+	 Creating a composite primary key.
+	  */
+	  PRIMARY KEY (groupMemberGroupId, groupMemberMemberId)
+);
