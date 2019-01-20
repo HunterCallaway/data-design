@@ -26,7 +26,7 @@
 				<h3>groupMember</h3>
 					<ul>
 						<li>groupMemberGroupId (foreign key)</li>
-						<li>groupMemberMemberId (foreign key</li>
+						<li>groupMemberMemberId (foreign key)</li>
 					</ul>
 			<h2>Relationships</h2>
 				<ul>
