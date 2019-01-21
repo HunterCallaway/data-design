@@ -19,6 +19,11 @@ The following code will create the group entity and its attributes.
 	groupHost CHAR(255) NOT NULL,
 	groupLocation CHAR(255) NOT NULL,
 	groupName CHAR(255) NOT NULL,
+
+	/*
+	The following statement sets a unique attribute.
+	*/
+	UNIQUE (groupName),
  	/*
  	Setting the primary key.
  	 */
@@ -35,6 +40,10 @@ CREATE TABLE member (
 	memberPassword CHAR(100),
 	memberUserName CHAR(255),
 	/*
+	The following statement sets a unique attribute.
+	 */
+	UNIQUE (memberUserName),
+	/*
 	Setting the primary key.
 	 */
 	 PRIMARY KEY (memberID)
@@ -43,6 +52,11 @@ CREATE TABLE member (
 CREATE TABLE groupMember (
 	groupMemberGroupId BINARY(16) NOT NULL,
 	groupMemberMemberId BINARY(16) NOT NULL,
+	/*
+	The following statement indexes the foreign key.
+	 */
+	 INDEX (groupMemberGroupId),
+	 INDEX (groupMemberMemberId),
 	/*
 	Creating the foreign keys.
 	 */
