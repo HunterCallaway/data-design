@@ -62,3 +62,19 @@ INSERT INTO groupMember(groupMemberGroupId, groupMemberMemberId) VALUES (UNHEX("
 The following statement selects data from the group table.
  */
  SELECT groupHost, groupLocation, groupName FROM `group` WHERE groupId = UNHEX("5519ada6118145b5a10ed60e723caada");
+
+/**
+*@noinspection SqlResolve
+ */
+ /*
+ The following statement executes a select statement that incorporates both a where clause and an inner-join on two tables.
+  */
+  SELECT `group`.groupId, `group`.groupHost, `group`.groupLocation, `group`.groupName FROM `group` INNER JOIN groupMember ON `group`.groupId = groupMember.groupMemberGroupId WHERE `group`.groupName = "Desert Mommies Club";
+
+/**
+*@noinspection SqlResolve
+ */
+/*
+The following statement counts the number of rows in table.
+ */
+SELECT COUNT(memberId) FROM member WHERE memberID = UNHEX("7e9618f8d5e549468562a18c720ab159");
